@@ -1,0 +1,6 @@
+- name: Deploy 3-Tier Application
+  hosts: all
+  vars_files:
+    - ../vars/secrets.yml
+  roles:
+    - role: myapp_role
