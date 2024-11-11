@@ -29,3 +29,4 @@
         restart_policy: always
         env:
           MYSQL_ROOT_PASSWORD: "{{ mysql_root_password }}"
+          MYSQL_DATABASE: ${MYSQL_DATABASE}
